@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+section#latest_blog,
+#our_customer {
+    padding: 100px 0;
+    z-index: 10;
+}
+
+section#latest_blog {
+    background-image: url("../images/latest_blog_background.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+section#latest_blog .section_heading {
+    font-size: 42px;
+    margin-bottom: 70px;
+    color: #ffffff;
+}
+
+section#latest_blog .container,
+section#latest_blog .section_heading {
+    z-index: 999;
+    position: relative;
+}
+
+section#latest_blog:after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 11;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #303a52;
+    opacity: 0.8;
+}
+
+section#latest_blog #owl-demo .card {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: white;
+}
+
+section#latest_blog #owl-demo .row {
+    margin: 0;
+}
+
+section#latest_blog #owl-demo .card-title,
+section#latest_blog #owl-demo .post_date p {
+    text-transform: uppercase;
+}
+
+section#latest_blog #owl-demo .post_date hr {
+    background-color: white;
+    width: 35px;
+}
+
+section#latest_blog #owl-demo .post_date {
+    background-color: #00a0e3;
+    padding: 20px 0 0 0;
+}
+
+section#latest_blog #owl-demo .post_date h3 {
+    font-weight: 500;
+}
+
+section#latest_blog #owl-demo .description {
+    border-top: 5px solid #00a0e3;
+    padding: 20px 25px;
+    background-color: #3c3f46;
+}
+
+section#latest_blog #owl-demo .description .card-title {
+    font-weight: 300;
+}
+
+section#latest_blog #owl-demo .card-img-top {
+    border-radius: 0;
+}
+
+section#latest_blog #owl-demo .row {
+    opacity: 0.9;
+}
+
+section#latest_blog #owl-demo .description p {
+    font-size: 14px;
+}
+
+.container-fluid {
+    background-color: #292929;
+}
+
+section#latest_blog .dots .owl-dot {
+    display: inline-block;
+}
+
+section#latest_blog .dots .owl-dot span {
+    background: white;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 3px;
+    width: 12px;
+}
+
+section#latest_blog .owls-controls .navi {
+    text-align: center;
+}
+
+section#latest_blog .dots .owl-dot.active span {
+    background: none;
+    border: 2px solid white;
+}
+
+section#latest_blog .navi .owl-next,
+section#latest_blog .navi .owl-prev {
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+section#latest_blog .navi .dots {
+    display: inline-block;
+}

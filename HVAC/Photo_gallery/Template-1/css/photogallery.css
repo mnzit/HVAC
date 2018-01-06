@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+section#photo_gallery {
+    padding: 100px 0;
+    z-index: 10;
+}
+
+section#photo_gallery .row {
+    margin: 0;
+    padding: 0;
+}
+
+section#photo_gallery .gallery-img {
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+section#photo_gallery .gallery-img:after {
+    content: "";
+    position: absolute;
+    background-image: url('../images/img_hover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #161616;
+    opacity: 0.8;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+section#photo_gallery .gallery-img:hover:after {
+    display: block;
+    transition: 0.5s ease-out;
+}
+
+section#photo_gallery .gallery-img img {
+    width: 100%;
+}
+
+section#photo_gallery .gallery-img:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+section#photo_gallery {
+    background-color: #212c3a;
+}
+
+section#photo_gallery .section_heading {
+    font-size: 42px;
+    margin-bottom: 70px;
+    color: #ffffff;
+}

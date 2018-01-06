@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section#latest_blog,
+#our_customer {
+    padding: 100px 0;
+    z-index: 10;
+}
+
+section#latest_blog {
+    background-image: url("../images/latest_blog_background.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+section#latest_blog .section_heading {
+    font-size: 42px;
+    margin-bottom: 70px;
+    color: #ffffff;
+}
+
+section#latest_blog .container,
+section#latest_blog .section_heading {
+    z-index: 999;
+    position: relative;
+}
+
+section#latest_blog:after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 11;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #383838;
+    opacity: 0.8;
+}
+
+section#latest_blog #owl-demo .card {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: white;
+}
+
+section#latest_blog #owl-demo .row {
+    margin: 0;
+}
+
+section#latest_blog #owl-demo .card-title,
+section#latest_blog #owl-demo .post_date p {
+    text-transform: uppercase;
+}
+
+section#latest_blog #owl-demo .post_date hr {
+    background-color: white;
+}
+
+section#latest_blog #owl-demo .post_date {
+    font-weight: 300;
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+section#latest_blog #owl-demo .description {
+    border-bottom: 7px solid #bcbdbd;
+    background-color: #3c3f46;
+    transition: .25s;
+}
+
+section#latest_blog #owl-demo .card:hover .description {
+    border-bottom-color: #1c8cbb;
+}
+
+section#latest_blog #owl-demo .card:hover .readmore {
+    color: #72d2ff;
+}
+
+section#latest_blog #owl-demo .description p {
+    padding: 30px 25px 0px 25px;
+}
+
+section#latest_blog #owl-demo .description {
+    padding: 30px 0;
+}
+
+section#latest_blog #owl-demo .description .card-title {
+    font-weight: 300;
+    margin: 0;
+    font-size: 20px;
+    padding: 0 45px;
+}
+
+section#latest_blog #owl-demo .description .readmore {
+    color: white;
+    text-transform: uppercase;
+    transition: .25s;
+}
+
+section#latest_blog #owl-demo .card-img-top {
+    border-radius: 0;
+}
+
+section#latest_blog #owl-demo .description {
+    opacity: 0.9;
+}
+
+section#latest_blog #owl-demo .description p {
+    font-size: 14px;
+}
+
+section#latest_blog #owl-demo .description a {
+    font-weight: 300;
+}
+
+section#latest_blog #owl-demo .owl-nav {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+section#latest_blog #owl-demo .owl-nav div {
+    display: inline-block;
+}
+
+section#latest_blog #owl-demo .card .description {
+    position: relative;
+}
+
+section#latest_blog #owl-demo .card .description:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 32px solid transparent;
+    border-left: 9px solid transparent;
+    border-bottom: 8px solid #3c3f46;
+    border-right: 9px solid transparent;
+    margin: -40px auto 0 auto;
+    height: 0;
+    width: 0;
+}
+
+.container-fluid {
+    background-color: #292929;
+}
+
+section#latest_blog .dots .owl-dot {
+    display: inline-block;
+}
+
+section#latest_blog .dots .owl-dot span {
+    background: white;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 3px;
+    width: 12px;
+}
+
+section#latest_blog .owls-controls .navi {
+    text-align: center;
+}
+
+section#latest_blog .dots .owl-dot.active span {
+    background: none;
+    border: 2px solid white;
+}
+
+section#latest_blog .navi .owl-next,
+section#latest_blog .navi .owl-prev {
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+section#latest_blog .navi .dots {
+    display: inline-block;
+}

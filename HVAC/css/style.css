@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+p{
+	font-weight: 300;
+	font-size:18px;
+}
+h1{
+	font-size: 36px;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 26px;
+}
+h4{
+	font-size: 21px;
+	font-weight: 500;
+}
+h5{
+	font-size: 18px;
+}
+h6{
+	font-size: 14px;
+}
