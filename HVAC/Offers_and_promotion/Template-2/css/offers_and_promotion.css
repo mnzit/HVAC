@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+section#offers_and_promotion,
+#our_customer {
+    padding: 100px 0;
+    z-index: 10;
+}
+
+section#offers_and_promotion {
+    background-image: url("../images/offers_and_promotion_back.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+section#offers_and_promotion .section_heading {
+    font-size: 42px;
+    margin-bottom: 70px;
+    color: #ffffff;
+}
+
+section#offers_and_promotion .container,
+section#offers_and_promotion .section_heading {
+    z-index: 999;
+    position: relative;
+}
+
+section#offers_and_promotion:after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 11;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    opacity: 0.2;
+}
+
+section#offers_and_promotion .dots .owl-dot {
+    display: inline-block;
+}
+
+section#offers_and_promotion .dots .owl-dot span {
+    background: white;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 3px;
+    width: 12px;
+}
+
+section#offers_and_promotion .owls-controls .navi {
+    text-align: center;
+}
+
+section#offers_and_promotion .dots .owl-dot.active span {
+    background: none;
+    border: 2px solid white;
+}
+
+section#offers_and_promotion .navi .owl-next,
+section#offers_and_promotion .navi .owl-prev {
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+section#offers_and_promotion .navi .dots {
+    display: inline-block;
+}

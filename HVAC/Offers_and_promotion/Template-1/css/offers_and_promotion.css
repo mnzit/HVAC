@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+section#offers_and_promotion,
+#our_customer {
+    padding: 100px 0;
+    z-index: 10;
+}
+
+section#offers_and_promotion {
+    background-color:#f8f8f8;
+}
+
+section#offers_and_promotion .section_heading {
+    font-size: 42px;
+    margin-bottom: 70px;
+    color: black;
+}
+
+section#offers_and_promotion .owl-carousel {
+    position: relative;
+  }
+  section#offers_and_promotion .owl-carousel .owl-next,
+  section#offers_and_promotion .owl-carousel .owl-prev {
+    position: absolute;
+    top: 30%;
+  }
+  section#offers_and_promotion .owl-carousel .owl-prev {
+    left: -80px;
+  }
+  section#offers_and_promotion .owl-carousel .owl-next {
+    right: -80px;
+  }
+  section#offers_and_promotion .owl-next,
+section#offers_and_promotion .owl-prev {
+    color: black;
+    display: inline-block;
+    font-size: 100px;
+    cursor: pointer;
+}
